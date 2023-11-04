@@ -116,8 +116,15 @@ color: black;
         margin: 1rem 0;
         cursor: pointer;
     }
-    .hidden{
+    /* .hidden{
         display: none;
+    } */
+
+    .features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        padding: 0.7rem;
     }
 
 
